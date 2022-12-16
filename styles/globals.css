@@ -2,3 +2,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+div, section, button {
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+}
