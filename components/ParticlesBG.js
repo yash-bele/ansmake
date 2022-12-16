@@ -9,7 +9,7 @@ const ParticlesBG = () => {
 
   return (
     <Particles
-      className='absolute -z-50 h-screen'
+      className='absolute -z-50'
       id='tsparticles'
       init={particlesInit}
       options={{

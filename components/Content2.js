@@ -24,7 +24,7 @@ const Content2 = () => {
           <FaYoutube className='absolute top-[23px] text-lg left-4' />
           <div className='flex flex-col items-center w-full'>
             <h1>Speed Training Playlist</h1>
-            <p className='text-[11px] w-[65%] text-center'>
+            <p className='text-[11px] w-[75%] text-center'>
               Get faster for any sport with these speed tips
             </p>
           </div>
@@ -72,8 +72,8 @@ const Content2 = () => {
               placeholder='Phone #'
               className='outline-none bg-transparent border border-white rounded-xl w-full text-sm py-3 px-5 mb-5'
             />
-            <div className='flex items-center justify-center space-x-5 mb-5'>
-              <div className='flex items-center space-x-1.5'>
+            <div className='flex items-center justify-center space-x-4 mb-5'>
+              <div className='flex items-center space-x-2'>
                 <input
                   type='radio'
                   name='ima'
