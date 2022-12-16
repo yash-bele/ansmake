@@ -14,7 +14,7 @@ const Home = () => {
         <meta name='description' content='Website' />
         <link rel='icon' href='' />
       </Head>
-      <main className='relative w-screen h-screen scrollbar-thin scrollbar-thumb-white/25 hover:scrollbar-thumb-white/50 scrollbar-thumb-rounded-full'>
+      <main className='h-full absolute w-full scrollbar-thin scrollbar-thumb-white/25 hover:scrollbar-thumb-white/50 scrollbar-thumb-rounded-full'>
         <ParticlesBG />
         <main className='w-fit mx-auto'>
           <section className='sticky top-3 w-[90%] md:w-[650px] mx-auto flex justify-between z-10'>
