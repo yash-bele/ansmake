@@ -82,7 +82,7 @@ const Content2 = () => {
                   className='ring-4 ring-gray-50 checked:ring-4 checked:ring-gray-700 appearance-none rounded-full w-1.5 h-1.5 bg-white'
                 />
                 <label htmlFor='fan' className='text-sm'>
-                  I'm a Fan
+                  I’m a Fan
                 </label>
               </div>
               <div className='flex items-center space-x-2'>
@@ -93,7 +93,7 @@ const Content2 = () => {
                   className='ring-4 ring-gray-50 checked:ring-4 checked:ring-gray-700 appearance-none rounded-full w-1.5 h-1.5 bg-white'
                 />
                 <label htmlFor='brand' className='text-sm'>
-                  I'm a Fan
+                  I’m a Brand
                 </label>
               </div>
               <div className='flex items-center space-x-2'>
@@ -104,7 +104,7 @@ const Content2 = () => {
                   className='ring-4 ring-gray-50 checked:ring-4 checked:ring-gray-700 appearance-none rounded-full w-1.5 h-1.5 bg-white'
                 />
                 <label htmlFor='creator' className='text-sm'>
-                  I'm a Fan
+                  I’m a Creator
                 </label>
               </div>
             </div>
