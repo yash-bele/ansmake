@@ -73,7 +73,7 @@ const Content2 = () => {
               className='outline-none bg-transparent border border-white rounded-xl w-full text-sm py-3 px-5 mb-5'
             />
             <div className='flex items-center justify-center space-x-5 mb-5'>
-              <div className='flex items-center space-x-2'>
+              <div className='flex items-center space-x-1.5'>
                 <input
                   type='radio'
                   name='ima'
@@ -81,7 +81,7 @@ const Content2 = () => {
                   defaultChecked='true'
                   className='ring-4 ring-gray-50 checked:ring-4 checked:ring-gray-700 appearance-none rounded-full w-1.5 h-1.5 bg-white'
                 />
-                <label htmlFor='fan' className='text-sm'>
+                <label htmlFor='fan' className='text-xs'>
                   I’m a Fan
                 </label>
               </div>
@@ -92,7 +92,7 @@ const Content2 = () => {
                   id='brand'
                   className='ring-4 ring-gray-50 checked:ring-4 checked:ring-gray-700 appearance-none rounded-full w-1.5 h-1.5 bg-white'
                 />
-                <label htmlFor='brand' className='text-sm'>
+                <label htmlFor='brand' className='text-xs'>
                   I’m a Brand
                 </label>
               </div>
@@ -103,7 +103,7 @@ const Content2 = () => {
                   id='creator'
                   className='ring-4 ring-gray-50 checked:ring-4 checked:ring-gray-700 appearance-none rounded-full w-1.5 h-1.5 bg-white'
                 />
-                <label htmlFor='creator' className='text-sm'>
+                <label htmlFor='creator' className='text-xs'>
                   I’m a Creator
                 </label>
               </div>
