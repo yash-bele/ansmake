@@ -10,7 +10,7 @@ const Content2 = () => {
   const [showRacing, setShowRacing] = useState(false);
 
   return (
-    <main className='text-white w-[90%] md:w-[650px] mx-auto flex justify-center font-mont'>
+    <main className='text-white w-[90%] md:w-[650px] mx-auto pb-10 flex justify-center font-mont'>
       <section className='w-full'>
         <section className='h-[250px] sm:h-[175px] border border-2 border-white rounded-xl sm:flex overflow-hidden mb-5'>
           <div className='h-[70%] sm:h-auto sm:w-[50%] bg-cover bg-center bg-[url(https://res.cloudinary.com/pillario/image/upload/c_thumb,g_custom,h_320,w_640/v1/page-block-image/digital-product/f2df2a40-feda-11ec-8f06-79a38aecb29d)]'></div>
@@ -115,7 +115,7 @@ const Content2 = () => {
         </section>
         <section
           onClick={() => setShowRacing(!showRacing)}
-          className='border border-2 border-white rounded-xl flex overflow-hidden mb-10 flex justify-center py-3 cursor-pointer relative'
+          className='border border-2 border-white rounded-xl flex overflow-hidden flex justify-center py-3 cursor-pointer relative'
         >
           <FaYoutube className='absolute top-[15px] text-lg left-4' />
           <FiChevronDown
